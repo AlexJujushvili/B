@@ -1,0 +1,45 @@
+/*
+ * ღილაკები
+ */
+a.button-big {
+	background: url(../images/buttons/sprite_buttons.png) no-repeat;
+	display: inline-block;
+	height: 45px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+
+a.button-big span {
+	background: url(../images/buttons/sprite_buttons_span.png) no-repeat;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 25px;
+	line-height: 45px;
+	height: 45px;
+	font-weight: bold;
+	float: left;
+	cursor: pointer;
+}
+
+/******************* ყვითელი******************/
+/* Orange big */
+a.button-big-orange {
+	background-position: right -830px;
+}
+
+a.button-big-orange span {
+	background-position: 0 -830px;
+	color: #3F1903;
+	text-shadow: 1px 1px 0 #FFDCB6;
+}
+
+a.button-big-orange:hover, a.button-big-orange:active {
+	background-position: right -875px;
+	outline: none;
+}
+
+a.button-big-orange:hover span, a.button-big-orange:active span {
+	background-position: 0 -875px;
+	color: #301302;
+	text-shadow: 1px 1px 0 #FFC88D;
+}
